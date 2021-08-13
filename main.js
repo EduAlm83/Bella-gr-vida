@@ -1,4 +1,4 @@
-// search-box open close js code
+/* //search-box open close js code
 let navbar = document.querySelector('.navbar')
 let searchBox = document.querySelector('.search-box .bx-search')
 let searchBoxCancel = document.querySelector('.search-box .bx-x')
@@ -10,7 +10,7 @@ searchBox.addEventListener('click', () => {
   } else {
     searchBox.classList.replace('bx-x', 'bx-search')
   }
-})
+})*/
 
 // sidebar open close js code
 let navLinks = document.querySelector('.nav-links')
@@ -49,8 +49,6 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+  
 });
+

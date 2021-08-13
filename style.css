@@ -51,7 +51,6 @@
 }
 
 
-
 nav {
   position: fixed;
   top: 0;
@@ -253,9 +252,12 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 
 /*====  HOME ============================ */
+
+
 header h2{
-  font-family: var(--title-font);
+  font-family: var(--body-font);
   text-align: center;
+  
 }
 
 body {
@@ -298,10 +300,10 @@ padding: 0;
 }
 
 .swiper-slide img {
-  display: block;
-  width: auto;
-  height: 100%;
-  object-fit: cover;
+  display:block;
+  width: 100%;
+  height:auto;
+  object-fit:scale-down;
 }
 
 /*====  FOOTER ============================ */
@@ -345,6 +347,8 @@ footer .social a:hover {
 }
 
 
+/*==========MEDIA=================*/
+
 @media (max-width: 920px) {
   nav .navbar {
     max-width: 100%;
@@ -368,9 +372,7 @@ footer .social a:hover {
 
 
 @media (max-width: 800px) {
-  nav {
-    position: relative;
-  }
+  
   .navbar .bx-menu {
     display: block;
   }
@@ -476,6 +478,6 @@ footer .social a:hover {
     max-width: 100%;
   }
 
-  
+ 
 
 }
