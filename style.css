@@ -15,8 +15,12 @@
 
 /*====  LAYOUT ============================ */
 .container {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
+}
+
+.container img {
+  margin-top: 1rem;
 }
 
 .grid {
@@ -254,11 +258,27 @@ nav .navbar .links li:hover .js-sub-menu {
 
 /*====  HOME ============================ */
 
-header h2{
+header h1{
   font-family: var(--body-font);
   text-align: center;
 }
 
+body h2{
+  font-family: var(--body-font);
+  text-align: justify;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+#link{
+  margin-top: -15px;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  float:left;
+
+
+}
 
 body {
 position: relative;
@@ -267,7 +287,7 @@ height: 100%;
 
 body {
 background: #eee;
-font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+font-family: var(--body-font);
 font-size: 14px;
 color: #000;
 margin-top: -2rem;
@@ -276,7 +296,8 @@ padding: 0;
 
 .swiper-container {
   width: auto;
-  height: 500px;
+  height: auto;
+  
 }
 
 .swiper-slide {
@@ -375,6 +396,18 @@ footer .social a:hover {
 
 @media (max-width: 800px) {
   
+  .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  body h2{
+    font-family: var(--body-font);
+    text-align: justify;
+    font-size: 13px;
+    margin-top: 20px;
+  }
+
   .navbar .icon-menu {
     display: block;
   }
@@ -477,6 +510,9 @@ footer .social a:hover {
 
 }
 @media (max-width: 370px) {
+ 
+ 
+
   nav .navbar .nav-links {
     max-width: 100%;
   }
