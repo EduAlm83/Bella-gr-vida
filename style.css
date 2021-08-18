@@ -15,8 +15,14 @@
 
 /*====  LAYOUT ============================ */
 .container {
-  margin-left: 4.5rem;
-  margin-right: 4.5rem;
+  margin-left: 5.5rem;
+  margin-right: 5.5rem;
+}
+
+div.container #home2 {
+  margin-top: 3rem;
+  margin-bottom: -4rem;
+
 }
 
 .container img {
@@ -263,21 +269,20 @@ header h1{
   text-align: center;
 }
 
-body h2{
+body p{
   font-family: var(--body-font);
   text-align: justify;
   font-size: 18px;
   margin-top: 20px;
+  text-indent: 50px;
 }
 
 #link{
-  margin-top: -15px;
-  width: 150px;
-  height: 150px;
-  padding: 10px;
+  margin-top: -12px;
+  width: 160px;
+  height: 160px;
+  padding: 0 10px ;
   float:left;
-
-
 }
 
 body {
@@ -334,7 +339,7 @@ footer {
 }
 
 footer.section {
-  padding: 2rem 0;
+  padding: 2rem;
 }
 
 footer .logo {
@@ -347,6 +352,7 @@ footer .logo {
 footer .brand p {
   color: blanchedalmond;
   margin-bottom: 0.75rem;
+  margin-left: -2rem;
 }
 
 footer i {
@@ -388,27 +394,35 @@ footer .social a:hover {
   nav .navbar .links li a {
     font-size: 15px;
   }
-
-  
-  
+   
 }
 
 
 @media (max-width: 800px) {
   
   .container {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
   }
 
-  body h2{
+  body p{
     font-family: var(--body-font);
-    text-align: justify;
+    text-align:justify ;
     font-size: 13px;
     margin-top: 20px;
+    text-indent: 20px;
   }
 
-  .navbar .icon-menu {
+  #link{
+    margin-top: -12px;
+    width: 140px;
+    height: 140px;
+    padding: 0 10px ;
+    float:left;
+  }
+
+    .navbar .icon-menu {
     display: block;
   }
   nav .navbar .nav-links {
